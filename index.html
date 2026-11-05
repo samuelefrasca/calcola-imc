@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatore dell'indice di massa corporea IMC - BMI</title>
+    <link rel="icon" href="assets/img/bmi-icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header container">
+            <div class="header1">
+                <a href="/"><img class="logo" src="assets/img/bmi-image.png" alt="bmi-image"></a>
+            </div>
+            <div class="header2">
+                <h1 class="title">Calcolatore di indice di massa corporea</h1>
+                <h2 class="subtitle">Inserisci altezza e massa e scopri il tuo IMC</h2>
+                <h3 class="spiegazione">Non sai cosa sia l'indice di massa corporea? <a
+                        href="https://it.wikipedia.org/wiki/Indice_di_massa_corporea" target="_blank"
+                        rel="noopener noreferrer">Visita la pagina Wikipedia.</a></h3>
+            </div>
+            <div class="header3"></div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="div-input">
+                <div class="div-altezza">
+                    <p>Inserisci altezza (cm)</p>
+                    <input id="altezza" type="number" min="100" max="250" value="170">
+                </div>
+                <div class="div-massa">
+                    <p>Inserisci massa (kg)</p>
+                    <input id="massa" type="number" min="30" max="300" value="60">
+                </div>
+            </div>
+            <button id="calcola">Calcola</button>
+            <p id="risposta"></p>
+            <p id="situazione-peso"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 CalcolaIMC · <a class="a_footer" href="https://samuelefrasca.github.io/" target="_blank"
+                rel="noopener noreferrer">Samuele Frasca</a>
+        </p>
+        <p><a class="a_footer" href="https://github.com/samuelefrasca/calcola-imc" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Repository del sito</a></p>
+        <p><a class="a_footer" href="https://github.com/samuelefrasca/calcola-imc-py" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Versione da terminale in Python</a>
+        </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
