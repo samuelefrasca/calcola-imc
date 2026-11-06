@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://calcolaimc.pages.dev/sitemap.xml
