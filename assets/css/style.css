@@ -133,7 +133,14 @@ footer {
 
 footer p {
     color: #000;
-    margin: 16px 0px;
+    margin: 10px;
+}
+
+.subfooter,
+.subfooter-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .a_footer {
@@ -155,7 +162,7 @@ footer p {
     }
 
     .logo {
-        width: 120px;
+        width: 90px;
     }
 
     .header3 {
@@ -163,11 +170,16 @@ footer p {
     }
 
     .title {
-        font-size: 20pt;
+        font-size: 18pt;
+        margin-bottom: 10px;
     }
 
     .subtitle {
-        font-size: 14pt;
+        font-size: 12pt;
+    }
+
+    .spiegazione {
+        margin-top: 8px;
     }
 
     .spiegazione,
@@ -176,6 +188,20 @@ footer p {
     #calcola,
     #risposta,
     #situazione-peso {
-        font-size: 13pt;
+        font-size: 12pt;
+    }
+
+    .subfooter {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .subfooter-media {
+        flex-direction: row;
+    }
+
+    .subfooter p {
+        font-size: 14px;
+        margin: 7px;
     }
 }
